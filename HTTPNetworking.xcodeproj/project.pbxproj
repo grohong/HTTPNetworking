@@ -36,10 +36,8 @@
 		E322472326A0136B0053C2A4 /* RequestTypeWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E322471026A0136B0053C2A4 /* RequestTypeWrapper.swift */; };
 		E322472426A0136B0053C2A4 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E322471126A0136B0053C2A4 /* Response.swift */; };
 		E322472526A0136B0053C2A4 /* URL+Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = E322471226A0136B0053C2A4 /* URL+Moya.swift */; };
-		E322472926A015770053C2A4 /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E322472726A015770053C2A4 /* Alamofire.xcframework */; };
-		E322472A26A015770053C2A4 /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E322472726A015770053C2A4 /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E322472B26A015770053C2A4 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E322472826A015770053C2A4 /* RxSwift.xcframework */; };
-		E322472C26A015770053C2A4 /* RxSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E322472826A015770053C2A4 /* RxSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E384B6BE26A0307400D1CB03 /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E322472726A015770053C2A4 /* Alamofire.xcframework */; };
+		E384B6C026A0307400D1CB03 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E322472826A015770053C2A4 /* RxSwift.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,21 +49,6 @@
 			remoteInfo = HTTPNetworking;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		E322472D26A015770053C2A4 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				E322472A26A015770053C2A4 /* Alamofire.xcframework in Embed Frameworks */,
-				E322472C26A015770053C2A4 /* RxSwift.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E32246D626A012790053C2A4 /* HTTPNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTTPNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,8 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E322472926A015770053C2A4 /* Alamofire.xcframework in Frameworks */,
-				E322472B26A015770053C2A4 /* RxSwift.xcframework in Frameworks */,
+				E384B6BE26A0307400D1CB03 /* Alamofire.xcframework in Frameworks */,
+				E384B6C026A0307400D1CB03 /* RxSwift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +218,6 @@
 				E32246D226A012790053C2A4 /* Sources */,
 				E32246D326A012790053C2A4 /* Frameworks */,
 				E32246D426A012790053C2A4 /* Resources */,
-				E322472D26A015770053C2A4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
